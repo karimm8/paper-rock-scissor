@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Paper && Scissor && Rock</h1>
+        <div class="choix">
+            <button onclick="play('scissor')">
+                <img src="./img/scissor.jpeg"  alt="" srcset="">
+            </button>
+            <button onclick="play('paper')">
+                <img src="./img/paper.jpeg"  alt="" srcset="">
+            </button>
+            <button onclick="play('rock')">
+                <img src="./img/rock.jpeg"  alt="" srcset="">
+            </button>
+        </div>
+        <div class="content">
+            <div class="player">
+                <h2>Player</h2>
+                <span id="player"></span>
+                <span id="playerScore">Score </span>
+            </div>
+            <div class="user">
+                <h2>User</h2>
+                <span id="user"></span>
+                <span id="userScore">Score </span>
+            </div>
+        </div>
+        <div class="result">
+            <h1 id="res">C'est Partie</h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
